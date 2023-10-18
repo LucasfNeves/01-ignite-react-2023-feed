@@ -1,0 +1,26 @@
+.wrapper {
+    width: 100%;
+    max-width: 70rem;
+    margin: 2rem auto;
+    padding: 0 1rem;
+
+    display: grid;
+    grid-template-columns: 256px 1fr; /* divida a tela em duas colunas */
+    gap: 2rem;
+    align-items: flex-start; /*Faz com que a wrapper e side bar ficarem alinhadas ao top assim a sidebar vai ficar com seu tamanho fixo e não tentará acompanhar a wrapper*/
+}
+
+@media (max-width:768px) {
+    
+    /*  16px -> 100% 
+        14px -> x%  
+        R: 87.5% font-size  
+    */
+
+    html {
+        font-size: 87.5%;
+    }
+    .wrapper {
+        grid-template-columns: 1fr;
+    }
+}
