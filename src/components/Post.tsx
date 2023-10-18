@@ -30,7 +30,7 @@ interface PostProps {
 
 export function Post ({post}: PostProps) {
 
-    const [comments, setComments] = useState([  // comments são os comentários já existentes, e setComments será a função para captar novos comentários
+    const [comments, setComments] = useState([  
         'Exemplo de comentário !'
     ])
 
@@ -40,31 +40,33 @@ export function Post ({post}: PostProps) {
         event.preventDefault();
 
         // imutabilidade
-        setComments([...comments, newCommentText]) // ... pega os comentários já existentes, e new comment é o novo comentário
+        setComments([...comments, newCommentText]) 
         setNewCommentText('');
     }
 
-    function handleNewCommentChange (event: ChangeEvent<HTMLTextAreaElement>) { // definimos o Generics do Typescript que são os parametros da tipagem
-        event.target.setCustomValidity(""); // tira o bug de ao tentar preencher o campo ampos a mensagem de erro aparece  aviso do campo obrigatório
-        setNewCommentText(event.target.value) // captura o valor de forma declarativa
+    function handleNewCommentChange (event: ChangeEvent<HTMLTextAreaElement>) { 
+        event.target.setCustomValidity(""); 
+        setNewCommentText(event.target.value) 
     }
 
     const publishedDateFormatted = format(post.publishedAt, "d 'de' LLLL HH:mm 'h'", {
         locale: ptBR,
     })
 
-    const publishdDateRealitveToNow = formatDistanceToNow(post.publishedAt, { // é uma função da blibioteca fns que recebe uma data e compara a data com o agora
+    // Compara a data da publicação com adaata atual
+    const publishdDateRealitveToNow = formatDistanceToNow(post.publishedAt, { 
         locale: ptBR,
         addSuffix: true, // isso mostra o "há" na frente da hora
     })
 
+     // muda o texto do aviso do campo obrigatório
     function handleNewCommentInvalid(event: InvalidEvent<HTMLTextAreaElement>) {
-        event.target.setCustomValidity("Esse campo é obrigatório"); // muda o texto do aviso do campo obrigatório
+        event.target.setCustomValidity("Esse campo é obrigatório");
     }
 
-    function deleteComment(commentToDelete: String) { // aqui estamos filtrando a lsita de comentário para deixarmos apenas os comentários estritamentes diferntes visíveis 
+    function deleteComment(commentToDelete: String) {
         const commentsWithoutDeletedOne = comments.filter(comment => {
-        return comment !== commentToDelete //filter filtra a lista de comentários e só ira retornar os comentários diferentes de commentToDelete
+        return comment !== commentToDelete 
     })
 
        setComments(commentsWithoutDeletedOne);
@@ -93,7 +95,7 @@ export function Post ({post}: PostProps) {
 
             <div className={styles.content}>
 
-                {post.content.map(line => {  // essa função percorre cada linha objeto do array e aplica a condicional nele se o tipo for paragrafo coloca dentro de uma tah apor exemplo
+                {post.content.map(line => {  
                     if (line.type === 'paragraph'){ 
                         return <p key={line.content}>{line.content}</p>
                     }else if (line.type === 'link') {
@@ -107,7 +109,7 @@ export function Post ({post}: PostProps) {
                 <strong>Deixe seu Feedback</strong>
 
                 <textarea
-                    value={newCommentText} // o valor dessa área é o estado de newCommentText, toda vez que o valor do estado mudar a textarea reflete a alteração
+                    value={newCommentText} 
                     name='comment'
                     placeholder='Deixe um comentário...'
                     onChange={handleNewCommentChange}
@@ -124,7 +126,7 @@ export function Post ({post}: PostProps) {
                 < Comment 
                     key={comment} 
                     content={comment} 
-                    onDeleteComment={deleteComment} // boas práticas para ações do usuário começar p nome da função com on
+                    onDeleteComment={deleteComment} 
                 />)
               })}
             </div>

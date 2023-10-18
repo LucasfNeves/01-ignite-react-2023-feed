@@ -15,7 +15,7 @@ export function Comment({content, onDeleteComment}: CommentPorps) {
     function handleDeleteComment() {
         console.log("deletar")
 
-        onDeleteComment(content)  // melhor seria o id   
+        onDeleteComment(content) 
     }
 
     function handleLikeComment () {
