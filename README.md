@@ -5,6 +5,8 @@
 Projeto desenvolvido no primeiro módulo do Ignite, se trata de um Feed aonde nesse projeto os Post são estáticos. <br>
 Conta com a funcionalidade de adicionar e remover comentários nas publicações, e também conta com a funcionalidade "aplaudir" que podemos usar em comentários que gostamos sem limites de aplausos por pessoa.
 
+Aplicação React utilizando o Vite para aprender sobre os conceitos mais importantes do React, entre eles estão componentização, propriedades, estados, imutabilidade e hooks, além de aplicar o TypeScript no projeto para adicionar tipagem estática à aplicação.
+
 ##
 
 ## Tecnologias usadas :
