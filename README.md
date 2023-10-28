@@ -1,4 +1,4 @@
-# Projeto Ignite Feed
+# Projeto Ignite Feed - Curso Ignite RocketSeat
 
 ## Visão Geral
 
