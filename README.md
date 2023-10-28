@@ -51,7 +51,7 @@ Para executar o projeto em sua máquina local, siga estas etapas:
    npm install
    ```
 
-5. Inicie a aplicação::
+5. Inicie a aplicação:
    ```bash
    npm run web
    ```
