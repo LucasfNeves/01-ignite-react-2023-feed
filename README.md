@@ -47,14 +47,14 @@ Para executar o projeto em sua máquina local, siga estas etapas:
 
 
 4. Instale as dependências:
-```bash
-npm install
-```
+   ```bash
+   npm install
+   ```
 
 5. Inicie a aplicação::
-```bash
-npm run web
-```
+   ```bash
+   npm run web
+   ```
 
   ## Preview
 
