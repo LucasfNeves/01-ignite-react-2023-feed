@@ -39,7 +39,13 @@ Para executar o projeto em sua máquina local, siga estas etapas:
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   - git clone git@github.com:LucasfNeves/Projeto-01-ignite-feed.git
+
+   - cd Projeto-01-ignite-feed
+
+   - npm install
+
+   - npm run web
 
 
   ## Preview
