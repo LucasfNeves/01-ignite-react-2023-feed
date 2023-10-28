@@ -14,3 +14,7 @@ Conta com a funcionalidade de adicionar e remover comentários nas publicações
 - React.JS
 - TypeScript
 - Vite
+
+  ## Image
+  
+![Capa](https://github.com/LucasfNeves/Projeto-01-ignite-feed/assets/136910031/9b53df1a-2452-443f-b0bc-fb74013bad82)
