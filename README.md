@@ -30,7 +30,7 @@ Durante o desenvolvimento deste projeto, você terá a oportunidade de explorar 
 
 - **Imutabilidade**: O projeto segue o princípio da imutabilidade, garantindo o tratamento seguro e previsível dos dados.
 
-- **Hooks**: São explorados diversos hooks, como `useState` e outros, para gerenciar estados e efeitos colaterais de forma eficaz.
+- **Hooks**: São explorados diversos hooks, como `useState` e outros, para gerenciar estados e efeitos colaterais de forma eficaz
 
 ## Como Iniciar
 
