@@ -1,8 +1,8 @@
 # Projeto Ignite Feed - Curso Ignite RocketSeat
 
-## [Acesse o Projeto](https://projeto-01-ignite-feed-rho.vercel.app/)
+## [Clique aqui e acesse o Projeto](https://projeto-01-ignite-feed-rho.vercel.app/)
 
-## [Link para o protótipo no Figma].(https://www.figma.com/file/oDXSek9UeIgnDQnPpSgNvB/Ignite-Feed?type=design&t=FNRb1ptYUf2NR1Dd-6))
+## [Clique aqui e acesse protótipo no Figma](https://www.figma.com/file/oDXSek9UeIgnDQnPpSgNvB/Ignite-Feed?type=design&t=FNRb1ptYUf2NR1Dd-6))
 
 ## Visão Geral
 
