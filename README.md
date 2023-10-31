@@ -1,20 +1,19 @@
 # Projeto Ignite Feed - Curso Ignite RocketSeat
 
+
+# Visão Geral
+Bem-vindo ao projeto Ignite Feed, desenvolvido durante o primeiro módulo do Ignite da RocketSeat. Este projeto é um feed de postagens com conteúdo estático, e apresenta várias funcionalidades interessantes, incluindo a capacidade de adicionar e remover comentários em publicações, bem como a funcionalidade de "aplaudir" comentários sem restrições de aplausos por pessoa.
+
 ## Acesse o Projeto:
 Você pode acessar o projeto por meio do link a seguir:
 
 🚀  [Clique aqui e acesse o Projeto](https://projeto-01-ignite-feed-rho.vercel.app/)
-
-##
 
 ## Também, você pode conferir o protótipo no Figma:
 
 🎨 [Clique aqui e acesse protótipo no Figma](https://www.figma.com/file/oDXSek9UeIgnDQnPpSgNvB/Ignite-Feed?type=design&t=FNRb1ptYUf2NR1Dd-6)
 
 ##
-
-# Visão Geral
-Bem-vindo ao projeto Ignite Feed, desenvolvido durante o primeiro módulo do Ignite da RocketSeat. Este projeto é um feed de postagens com conteúdo estático, e apresenta várias funcionalidades interessantes, incluindo a capacidade de adicionar e remover comentários em publicações, bem como a funcionalidade de "aplaudir" comentários sem restrições de aplausos por pessoa.
 
 # Tecnologias Utilizadas
 O projeto utiliza uma variedade de tecnologias para proporcionar uma experiência de aprendizado abrangente, incluindo:
