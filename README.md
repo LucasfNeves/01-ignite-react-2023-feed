@@ -2,6 +2,10 @@
 
 ## Acesse o Projeto :  (https://projeto-01-ignite-feed-rho.vercel.app/)
 
+## Link para o protótipo no Figma :
+
+[Visualizar Projeto no Figma]([URL do Figma](https://www.figma.com/file/oDXSek9UeIgnDQnPpSgNvB/Ignite-Feed?type=design&t=FNRb1ptYUf2NR1Dd-6))
+
 ## Visão Geral
 
 Bem-vindo ao projeto Ignite Feed, desenvolvido durante o primeiro módulo do Ignite. Este projeto é um feed de postagens com conteúdo estático e apresenta várias funcionalidades interessantes, incluindo a capacidade de adicionar e remover comentários em publicações, bem como a funcionalidade de "aplaudir" comentários sem restrições de aplausos por pessoa.
@@ -57,7 +61,4 @@ Para executar o projeto em sua máquina local, siga estas etapas:
    ```bash
    npm run web
    ```
-## Link para o protótipo no Figma :
-
-[Visualizar Projeto no Figma]([URL do Figma](https://www.figma.com/file/oDXSek9UeIgnDQnPpSgNvB/Ignite-Feed?type=design&t=FNRb1ptYUf2NR1Dd-6))
 
