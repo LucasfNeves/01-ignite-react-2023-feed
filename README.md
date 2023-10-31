@@ -61,7 +61,3 @@ Para executar o projeto em sua máquina local, siga estas etapas:
 
 [Visualizar Projeto no Figma]([URL do Figma](https://www.figma.com/file/oDXSek9UeIgnDQnPpSgNvB/Ignite-Feed?type=design&t=FNRb1ptYUf2NR1Dd-6))
 
-
-## Preview
-
-![Project Feed React - Google Chrome 10_28_2023 11_24_10 AM](https://github.com/LucasfNeves/Projeto-01-ignite-feed/assets/136910031/9ba39998-7bf1-4dc3-9a12-89eb73040c61)
